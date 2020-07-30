@@ -4,6 +4,22 @@
 * https://www.alura.com.br/imersao-react/aula01-react-aluraflix
 * https://www.youtube.com/watch?v=DQ3A2PTpDBU
 
+Para deploy utilizar Vercel:
+https://vercel.com/
+
+1. Logar com GitHub
+2. Import Project
+3. Import a Git Repository
+4. Colar a URL do projeto Git no GitHub
+5. Deploy
+6. Aguardar o build e implantação
+7. Quando finalizar aparece um link para acessar o app instalado.
+
+Obs: Posso configurar minha própria URL em configs.
+
+### App
+https://vknobflix.vercel.app/
+
 <br />
 <br />
 <br />
