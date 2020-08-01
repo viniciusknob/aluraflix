@@ -17,8 +17,12 @@ https://vercel.com/
 
 Obs: Posso configurar minha própria URL em configs.
 
-### App
+#### App
 https://vknobflix.vercel.app/
+
+### Aula 2
+* https://www.alura.com.br/imersao-react/aula02-roteamento-state
+* https://www.youtube.com/watch?v=B2GNlpRWhcw
 
 <br />
 <br />
