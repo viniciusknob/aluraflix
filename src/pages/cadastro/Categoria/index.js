@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import PageDefault from '../../../components/PageDefault';
 import { Link } from 'react-router-dom';
+import FormField from '../../../components/FormField';
 
 function CadastroCategoria() {
     const valoresIniciais = {
@@ -11,7 +12,7 @@ function CadastroCategoria() {
     const [categorias, setCategorias] = useState([]);
     const [values, setValues] = useState(valoresIniciais);
 
-    function setValue(chave,valor) {
+    function setValue(chave, valor) {
       setValues({
         ...values,
         [chave]: valor
@@ -19,8 +20,10 @@ function CadastroCategoria() {
     }
 
     function handleChange(event) {
-      const { getAttribute, value } = event.target;
-      setValue(getAttribute('name'), value);
+      setValue(
+        event.target.getAttribute('name'),
+        event.target.value
+      );
     }
 
     return (
@@ -36,17 +39,14 @@ function CadastroCategoria() {
 
           setValues(valoresIniciais);
         }}>
-          <div>
-            <label>
-              Nome da Categoria:
-              <input 
-                type="text" 
-                name="nome"
-                value={values.nome} 
-                onChange={handleChange}
-              />
-            </label>
-          </div>
+
+          <FormField 
+            label="Nome da Categoria:"
+            type="text"
+            name="nome"
+            value={values.nome}
+            onChange={handleChange}
+          />
 
           <div>
             <label>
@@ -60,17 +60,13 @@ function CadastroCategoria() {
             </label>
           </div>
 
-          <div>
-            <label>
-              Cor:
-              <input 
-                type="color" 
-                name="cor"
-                value={values.cor} 
-                onChange={handleChange}
-              />
-            </label>
-          </div>
+          <FormField 
+            label="Cor:"
+            type="color"
+            name="cor"
+            value={values.cor}
+            onChange={handleChange}
+          />
 
           <button>
             Cadastrar
