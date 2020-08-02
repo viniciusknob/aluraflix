@@ -24,6 +24,10 @@ https://vknobflix.vercel.app/
 * https://www.alura.com.br/imersao-react/aula02-roteamento-state
 * https://www.youtube.com/watch?v=B2GNlpRWhcw
 
+### Aula 3
+* https://www.alura.com.br/imersao-react/aula03-formularios-componentes
+* https://www.youtube.com/watch?v=ybnbwXSUCrE
+
 <br />
 <br />
 <br />
