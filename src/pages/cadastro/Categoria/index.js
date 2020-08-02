@@ -3,6 +3,7 @@ import PageDefault from '../../../components/PageDefault';
 import { Link } from 'react-router-dom';
 
 function CadastroCategoria() {
+    const [categorias, setCategorias] = useState(['Initial Arr']);
     const [nomeDaCategoria, setNomeDaCategoria] = useState('Initial');
 
     return (
@@ -26,6 +27,16 @@ function CadastroCategoria() {
             Cadastrar
           </button>
         </form>
+
+        <ul>
+          {categorias.map((categoria) => {
+            return (
+              <li key={categoria}>
+                {categoria}
+              </li>
+            );
+          })}
+        </ul>
 
         <Link to="/">
           Ir para Home
