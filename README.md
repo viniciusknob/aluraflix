@@ -28,6 +28,10 @@ https://vknobflix.vercel.app/
 * https://www.alura.com.br/imersao-react/aula03-formularios-componentes
 * https://www.youtube.com/watch?v=ybnbwXSUCrE
 
+### Aula 4
+* https://www.alura.com.br/imersao-react/aula04-ajax-validacao
+* https://www.youtube.com/watch?v=LCOnvYqWf5g
+
 <br />
 <br />
 <br />
