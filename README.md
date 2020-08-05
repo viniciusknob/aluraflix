@@ -17,7 +17,7 @@ https://vercel.com/
 
 Obs: Posso configurar minha própria URL em configs.
 
-#### App
+#### App no Vercel (Front-End)
 https://vknobflix.vercel.app/
 
 ### Aula 2
@@ -31,6 +31,9 @@ https://vknobflix.vercel.app/
 ### Aula 4
 * https://www.alura.com.br/imersao-react/aula04-ajax-validacao
 * https://www.youtube.com/watch?v=LCOnvYqWf5g
+
+#### App no Heroku (Back-End)
+https://vknobflix.herokuapp.com/
 
 <br />
 <br />

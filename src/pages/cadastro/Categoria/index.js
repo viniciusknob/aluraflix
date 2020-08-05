@@ -28,7 +28,7 @@ function CadastroCategoria() {
   }
 
   useEffect(() => {
-    const url = 'http://localhost:8080/categorias';
+    const url = 'https://vknobflix.herokuapp.com/categorias';
     fetch(url)
       .then((response) => response.json())
       .then((responseJson) => setCategorias([
