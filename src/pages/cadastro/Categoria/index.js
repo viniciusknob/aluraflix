@@ -28,24 +28,12 @@ function CadastroCategoria() {
   }
 
   useEffect(() => {
-    console.log('useEffect');
-    setTimeout(() => {
-      setCategorias([
-        ...categorias,
-        {
-          id: 1,
-          nome: 'Front End',
-          descricao: 'Uma categoria de teste',
-          cor: '#cbd1ff',
-        },
-        {
-          id: 2,
-          nome: 'Back End',
-          descricao: 'Outra categoria de teste',
-          cor: '#cbd1ff',
-        },
-      ]);
-    }, 3 * 1000);
+    const url = 'http://localhost:8080/categorias';
+    fetch(url)
+      .then((response) => response.json())
+      .then((responseJson) => setCategorias([
+        ...responseJson,
+      ]));
   }, []);
 
   return (
