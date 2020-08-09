@@ -35,6 +35,10 @@ https://vknobflix.vercel.app/
 #### App no Heroku (Back-End)
 https://vknobflix.herokuapp.com/
 
+### Aula 5
+* https://www.alura.com.br/imersao-react/aula05-gerenciamendo-videos
+* https://www.youtube.com/watch?v=hhQ3RtvmfEg
+
 <br />
 <br />
 <br />
